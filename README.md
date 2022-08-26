@@ -1,4 +1,4 @@
-# vue-3-ssr-vhtml-custom-component-bug
+# vue-3-ssr-vhtml-custom-component-bug [#6553](https://github.com/vuejs/core/issues/6553)
 
 Using `v-html` directive on custom component is not server-rendering properly.
 
