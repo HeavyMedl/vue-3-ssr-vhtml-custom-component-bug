@@ -68,7 +68,7 @@ In either case, development or production, observe the resultant HTML generated 
 
 We can see the difference in the compiled bundles
 
-### Client bundle (expected):
+### Client bundle (expected)
 
 ```javascript
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
