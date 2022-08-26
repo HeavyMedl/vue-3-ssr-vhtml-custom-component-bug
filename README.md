@@ -150,9 +150,13 @@ import { CompA } from '@company/lib'
     <comp-a v-html='htmlFromCMS'>
   </div>
 </template>
+
 <script>
 export default {
   name: 'App',
+  components: {
+    CompA,
+  }
   props: {
     htmlFromCMS: {
       type: String,
