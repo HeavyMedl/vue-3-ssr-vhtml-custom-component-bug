@@ -68,7 +68,7 @@ In either case, development or production, observe the resultant HTML generated 
 
 We can see the difference in the compiled bundles
 
-Client bundle:
+### Client bundle (expected):
 
 ```javascript
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -92,6 +92,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
 }
 ```
 
+### Server bundle
 
 ```javascript
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
