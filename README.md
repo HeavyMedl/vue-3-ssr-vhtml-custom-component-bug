@@ -152,7 +152,7 @@ import { CompA } from '@company/lib'
 </template>
 <script>
 export default {
-  name: '',
+  name: 'App',
   props: {
     htmlFromCMS: {
       type: String,
