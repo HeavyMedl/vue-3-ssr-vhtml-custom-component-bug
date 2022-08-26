@@ -2,6 +2,8 @@
 
 Using `v-html` directive on custom component is not server-rendering properly.
 
+> This repo is a stripped down version of https://github.com/vitejs/vite/tree/main/playground/ssr-vue
+
 ## Steps to reproduce
 
 ```
